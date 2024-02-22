@@ -2,13 +2,14 @@ import ClickCounter from './ClickCounter';
 import './styles.css';
 
 const App = () => {
+  const num = 'name'
     return (
       <>
         <h1>
           Hello Everyone!! Welcome to Webpack starter react Configuration -{" "}
           {process.env.NODE_ENV}- {process.env.name}
             </h1>
-            <ClickCounter />
+           <ClickCounter />
       </>
     );
 }
